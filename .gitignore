@@ -1,0 +1,11 @@
+node_modules
+.firebase
+.firebaserc
+firebase.json
+service-account.json
+
+.env.local
+.env.production
+
+dist
+yarn-error.log

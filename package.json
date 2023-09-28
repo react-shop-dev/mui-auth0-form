@@ -1,0 +1,45 @@
+{
+  "name": "mui-auth0-form",
+  "private": false,
+  "version": "1.0.0",
+  "author": "Vasyl Pukii",
+  "license": "MIT",
+  "sideEffects": false,
+  "description": "Material UI styled components for Universal Auth0 form",
+  "repository": "git@github.com:react-shop-dev/mui-auth0-form.git",
+  "homepage": "https://github.com/react-shop-dev/mui-auth0-form#readme",
+  "scripts": {
+    "dev:login": "cross-env VITE_ROOT_ELEMENT=login vite",
+    "dev:pass": "cross-env VITE_ROOT_ELEMENT=change_pass vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "firebase deploy --only hosting",
+    "storage": "fireup up ./dist/assets/index.js -lc"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.1.1",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.3",
+    "auth0-js": "^9.22.1",
+    "auth0-password-policies": "^1.0.2",
+    "password-sheriff": "^1.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.4",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/auth0-js": "^9.21.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "cross-env": "^7.0.3",
+    "csstype": "^3.1.2",
+    "fireup-cli": "^0.0.7",
+    "prettier": "^3.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
