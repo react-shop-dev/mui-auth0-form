@@ -1,6 +1,7 @@
 # Material UI Auth0 form
 
 [![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/react-shop-dev/mui-auth0-form#contributing)
 
 Material UI Form Template for Auth0 Universal Login.
 Build flexible, fully customizable authentication forms for your project with Material UI and Auth0 features. See [Demo here](https://react-shop-82a36.firebaseapp.com/?_gl=1*10k7bz1*_ga*MTUwOTM0MzA4OS4xNjY1MjM1NDc0*_ga_CW55HF8NVT*MTY5NTkwMzA5NC4xMS4xLjE2OTU5MDMxMDAuNTQuMC4w)
@@ -25,10 +26,20 @@ Build flexible, fully customizable authentication forms for your project with Ma
 
 For usage you should have registered [Auth0 account](https://auth0.com/).
 
-1. 💻 Initialize project:
+1. 💻 Clone project:
 
 ```sh
-git clone https://github.com/react-shop-dev/mui-auth0-form.git .; rm -rf trunk .gitignore README.md .git
+
+git clone https://github.com/react-shop-dev/mui-auth0-form.git && cd mui-auth0-form && rm -rf .gitignore README.md .git
+
+```
+
+and initialize packages
+
+```sh
+yarn
+#or
+npm i
 ```
 
 2. Create env.local file in root directory and setup environment variables (see env.example file).
@@ -134,6 +145,14 @@ yarn run storage
 
 `🔔 Tip: For using fireup cli service-account.json file is required. Can be generated in your firebase console Project settings -> Service accounts -> Manage service account permissions`
 
+## Contributing
+
+Pull requests for bug fixes are welcome on the GitHub repository. If you want to add a feature, you can open a Pull request on the next branch. For all Pull requests, you must follow the coding style of the existing files (based on prettier)
+
 ## License
 
 This project is licensed under the [MIT License](https://github.com/react-shop-dev/mui-auth0-form/blob/main/LICENSE.md).
+
+## Donate
+
+<a href="https://www.buymeacoffee.com/vasylpukiy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
